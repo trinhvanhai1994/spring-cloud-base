@@ -1,1 +1,1 @@
-# spring-cloud-base
+# spring-cloud-shopping
