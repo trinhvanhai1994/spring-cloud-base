@@ -19,7 +19,7 @@ import com.ominext.common.security.JwtConfig;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 
-public class JwtTokenAuthenticationFilter extends  OncePerRequestFilter {
+public class JwtTokenAuthenticationFilter extends OncePerRequestFilter {
     
 	private final JwtConfig jwtConfig;
 	

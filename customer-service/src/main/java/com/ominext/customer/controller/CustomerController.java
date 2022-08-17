@@ -3,6 +3,7 @@ package com.ominext.customer.controller;
 import com.ominext.common.model.request.CustomerRequest;
 import com.ominext.common.model.response.CustomerResponse;
 import com.ominext.customer.service.CustomerService;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -14,16 +15,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/customers")
 public class CustomerController {
 
+    @Value("${message}")
+    private String message;
+
     private final CustomerService service;
 
     public CustomerController(CustomerService service) {
         this.service = service;
     }
-
-//    @GetMapping("/customer/{id}")
-//    public CustomerResponse get(@PathVariable Long id) {
-//        return service.getById(id);
-//    }
 
     @PostMapping("/customer")
     public String create(@RequestBody CustomerRequest request) {
@@ -32,7 +31,12 @@ public class CustomerController {
     }
 
     @GetMapping("/customer/{username}")
-    public CustomerResponse findByUsername(@PathVariable String username) {
-        return service.findUsername(username);
+    public CustomerResponse getByUsername(@PathVariable String username) {
+        return service.getUsername(username);
+    }
+
+    @GetMapping("/message")
+    public String getMessage() {
+        return message;
     }
 }

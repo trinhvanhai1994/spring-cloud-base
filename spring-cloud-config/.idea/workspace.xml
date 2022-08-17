@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b31615d-a603-49c9-a136-ef1332f11320" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../admin-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-service/src/main/java/com/ominext/admin/AdminServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/ominext/auth/payload/request/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/src/main/java/com/ominext/auth/payload/request/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/ominext/auth/payload/response/JwtResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/src/main/java/com/ominext/auth/payload/response/JwtResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cart-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../cart-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../common-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-service/src/main/java/com/ominext/customer/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-service/src/main/java/com/ominext/customer/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discovery-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discovery-service/src/main/java/com/ominext/discovery/DiscoveryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery-service/src/main/java/com/ominext/discovery/DiscoveryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discovery-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/src/main/java/com/ominext/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/src/main/java/com/ominext/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/src/main/java/com/ominext/gateway/config/SpringCloudConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/src/main/java/com/ominext/gateway/security/JwtTokenAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/src/main/java/com/ominext/gateway/security/JwtTokenAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDE2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2DPxH7vRNNzCPos9NPjFDDLb3Q2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-cloud-config-server/pom.xml" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b31615d-a603-49c9-a136-ef1332f11320" name="Default Changelist" comment="" />
+      <created>1660614433346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660614433346</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="701" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1660614459342">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1660614459342" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1660617487930">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1660617487930" />
+  </component>
+</project>
